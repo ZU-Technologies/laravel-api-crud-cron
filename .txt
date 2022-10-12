@@ -1,0 +1,15 @@
+1: connect database
+2: run composer in terminal
+3:run php artisan serve
+
+for web route
+http://127.0.0.1:8000/user get user with pagination
+http://127.0.0.1:8000/upload  for file upload
+
+for Api
+http://127.0.0.1:8000/api/Post
+http://127.0.0.1:8000/api/getPost
+http://127.0.0.1:8000/api/upload-files
+
+For delete 30 days record cron job schedule run
+php artisan schedule:run
